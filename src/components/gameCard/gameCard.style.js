@@ -45,6 +45,14 @@ export const GameCardDescription = styled.div`
 
   & .description {
     margin: 0 20px;
+
+    & p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+    }
   }
 
   & .button-wrapper {

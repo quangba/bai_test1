@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   display: flex;
   margin-top: 75px;
-  width: 80%;
+  max-width: 1240px;
+  width: 100%;
   flex-direction: column;
   & .content-footer {
     display: flex;
@@ -47,6 +48,10 @@ export const FooterContainer = styled.div`
     }
   }
 
+  @media (max-width: 1224px) {
+    max-width: 90%;
+  }
+
   @media (max-width: 768px) {
     width: 90%;
     margin-top: 10px;
@@ -54,14 +59,13 @@ export const FooterContainer = styled.div`
       display: none;
     }
 
-    // & .footer-copyright {
-    //   & p {
-    //     display: none;
-    //   }
-    // }
+    & .footer-copyright {
+      margin: 50px 0;
+    }
 
     & .content-footer {
       flex-direction: column-reverse;
+      border: none;
       & .icon {
         padding-top: 10px;
         margin: 0;
@@ -79,9 +83,9 @@ export const FooterContainer = styled.div`
 
 export const FooterContent = styled.div`
   display: flex;
-
+  padding-bottom: 3.125rem;
   & div {
-    margin-left: 100px;
+    margin-left: 6.25rem;
 
     & h5 {
       font-family: PingFang SC;
@@ -105,7 +109,6 @@ export const FooterContent = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin-bottom: 3.125rem;
     flex-direction: column;
     & div {
       margin-left: 0;

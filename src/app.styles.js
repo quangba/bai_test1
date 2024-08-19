@@ -54,6 +54,7 @@ export const TitlePagination = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  padding: 0 5px;
 `;
 
 export const PaginationArrows = styled(TitlePagination)`

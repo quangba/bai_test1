@@ -17,7 +17,7 @@ export const DATA_GAME = [
     id: 1,
     name: "Mahjong Ways",
     description:
-      "4TECH™ has just launched their very first Mahjong inspired slot machine gam…",
+      "4TECH™ has just launched their very first Mahjong inspired slot machine game 4TECH™ has just launched their very first Mahjong inspired slot machine game",
     image: mahjong,
     imageBanner: bannerMahjong,
   },
@@ -25,7 +25,7 @@ export const DATA_GAME = [
     id: 2,
     name: "Wild Bandito",
     description:
-      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is activ…",
+      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is active Águila which means ‘The Eagle’ is a three-person",
     image: bandito,
     imageBanner: bannerBandito,
   },
@@ -33,7 +33,7 @@ export const DATA_GAME = [
     id: 3,
     name: "Wild Bandito1",
     description:
-      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is activ…",
+      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is active Águila which means ‘The Eagle’ is a three-person",
     image: bandito,
     imageBanner: bannerBandito,
   },
@@ -41,7 +41,7 @@ export const DATA_GAME = [
     id: 4,
     name: "Wild Bandito2",
     description:
-      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is activ…",
+      "Águila which means ‘The Eagle’ is a three-person Mexican bandit team that is active",
     image: bandito,
     imageBanner: bannerBandito,
   },
